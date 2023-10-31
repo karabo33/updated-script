@@ -21,11 +21,11 @@ sudo mkdir /var/www/html/labs
 echo "Listing 'labs' directory permissions..."
 ls -ld /var/www/html/labs
 
-echo "Changing owner of 'labs' directory to zofo&karabo:root..."
-sudo chown zofo&karabo:root /var/www/html/labs
+echo "Changing owner of 'labs' directory to zofo-karabo:root..."
+sudo chown zofo-karabo:root /var/www/html/labs
 
-echo "Creating a symbolic link from 'labs' to /home/zofo&karabo/html..."
-ln -s /var/www/html/labs /home/zofo&karabo/html
+echo "Creating a symbolic link from 'labs' to /home/zofo-karabo/html..."
+ln -s /var/www/html/labs /home/zofo-karabo/html
 
 echo "Listing contents of the current directory..."
 ls -l
